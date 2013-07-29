@@ -30,7 +30,7 @@ catch (err) {
 	
 // this listener will prevent IRC network errors from crashing the bot
 bot.addListener('error', function(message) {
-    console.log('IRC network error: ', message);
+	console.log('IRC network error: ', message);
 });
 
 // listen for chat messages
@@ -40,11 +40,11 @@ bot.addListener('message', function(nick, to, text, message) {
 		// randomly pick phrase to say to troll
 		var pick = config.phrases[Math.floor(Math.random() * config.phrases.length)];
 		if (to == config.name) {  // private message
-            bot.say(nick, pick); //  respond in kind
-        }
-        else {
-            bot.say(to, pick); // respond publicly in channel
-        }    
+			bot.say(nick, pick); //  respond in kind
+		}
+		else {
+			bot.say(to, pick); // respond publicly in channel
+		}
 	}
 	// allows bot owner to issue a remote kill command
 	if (nick == config.owner && text == config.killcmd) {
