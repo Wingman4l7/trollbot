@@ -4,7 +4,7 @@ trollbot
 ### About ###
 This is a simple IRC bot implemented in Node.js.  It demonstrates: 
 
-  - connecting / disconnecting to IRC servers
+  - connecting / disconnecting to an IRC server
   - listening & automatically replying to chat messages
   - remote command acceptance from a whitelisted user
 
