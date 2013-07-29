@@ -4,7 +4,7 @@ trollbot
 ### About ###
 This is a simple IRC bot implemented in Node.js.  It demonstrates: 
 
-  - connecting /disconnecting to an IRC server
+  - connecting / disconnecting to IRC servers
   - listening & automatically replying to chat messages
   - remote command acceptance from a whitelisted user
 
@@ -19,7 +19,9 @@ Once that is done, the latter can be installed via this command:
 [node-irc]: https://github.com/martynsmith/node-irc
 
 ### How to Run ###
-Navigate to the installed directory and run this command:
+All the parameters *(server, channel(s), bot name, troll list, phrase list, your username, kill command)* are set in a config declared within the code.
+
+To use, navigate to the installed directory and run this command:
 
 	node trollbot.js
 	
@@ -33,3 +35,5 @@ While obviously open-source, I haven't bothered to decide which license this sho
 ### Donations ###
 Like this script?  You can send Bitcoin donations to: `1F7kfMNUNQy8e52RHnQAWYXeaYfzFqHJAZ`
 *Quick reference:* $1 USD is currently: <img src="http://btcticker.appspot.com/mtgox/1.00usd.png">
+
+Alternatively, you can use [Gittip](https://www.gittip.com/Wingman4l7/).
