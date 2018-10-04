@@ -35,5 +35,3 @@ While obviously open-source, I haven't bothered to decide which license this sho
 
 ### Donations ###
 Like this script?  You can send Bitcoin donations to: `1F7kfMNUNQy8e52RHnQAWYXeaYfzFqHJAZ`
-
-Alternatively, you can use [Gittip](https://www.gittip.com/Wingman4l7/).
